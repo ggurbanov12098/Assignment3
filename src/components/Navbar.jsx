@@ -9,7 +9,6 @@ export default function Navbar(){
             <NavLink to="/">Movies</NavLink>
             <NavLink to="/">Contact me</NavLink>
             <NavLink to="/">About</NavLink>
-            <p>salam</p>
         </nav>
     );
 }
