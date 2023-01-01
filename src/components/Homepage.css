@@ -18,7 +18,7 @@ body {
     box-sizing: border-box;
 }
 
-.AslanCard, .GabilCard {
+.AslanCard, .GabilCard, .LeylaCard {
     width: 30%;
     min-width: 300px;
     margin: 50px auto;
@@ -50,6 +50,20 @@ body {
     width: 100%;
     height: 350px;
     background-image: url("images/Gabil.jpeg");
+     /* position: relative; */
+    top: 30px;
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.imageLeyla {
+    width: 100%;
+    height: 350px;
+    background-image: url("images/Leyla.jpeg");
     background-size: cover;
     object-fit: contain;
     background-repeat: no-repeat;
