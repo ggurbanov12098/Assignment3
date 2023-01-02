@@ -1,6 +1,7 @@
-import './Homepage.css';
+import './Home.css';
+import React from "react";
 
-export default function Homepage(){
+export default function Home(){
     return(
     <>
 
