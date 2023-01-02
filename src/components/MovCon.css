@@ -1,34 +1,21 @@
-div.car-info {
-    border: 1px solid black;
-    border-radius: 10px;
-    box-sizing: border-box;
-    display: inline-block;
-    margin: 5px;
-    padding: 0;
-    width: 120px;
-    background-color: #fbf0e4;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-  }
-  
-  .car-info > img {
-    width: 120px;
-    margin: 0 auto;
-    display: block;
-    box-sizing: border-box;
-  }
-  
-  .car-info > h4 {
-    margin: 1rem 5px;
-  }
-  
-  .car-info > p {
-    margin: 1rem 5px;
-    font-size: 1rem;
-    font-style: italic;
-  }
-  
-  .car-info--details {
-    font-size: 0.8rem;
-    font-style: italic;
-  }
-  
+.movie-info{
+    background-color: rgb(89, 89, 89);
+    border-radius: 30px;
+    width: 30%;
+    display: flex;
+    column-gap: 15px;
+}
+
+.movie-img{
+    width: 40%;
+    border-radius: 30px;
+}
+
+p.overview{
+    font-size: small;
+}
+
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

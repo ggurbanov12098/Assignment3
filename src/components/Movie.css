@@ -1,4 +1,26 @@
 /* CSS */
+
+/*
+.movie-cards{
+  width:75%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  justify-content: center;
+}*/
+
+.movie-cards{
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  column-gap: 5%;
+  row-gap: 35px;
+}
+
 .button {
    padding: 0.6em 1.6em;
    margin: 8px;

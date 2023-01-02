@@ -8,7 +8,7 @@ export default function Movie(){
     const [movies, setMovies] = useState([]);
 
     useEffect(() => {
-        let url = `http://localhost:3001/movies/?_page=${productCount}`;
+        let url = `http://localhost:3001/movies/?_page=${productCount}&_limit=9`;
         fetch(url)
         .then((res) => { return res.json(); })
         .then((data) => {
@@ -36,8 +36,18 @@ export default function Movie(){
     }
 
     function handleClickLast(event) {
-        setProductCount(100);
+        setProductCount(112);
         console.log(productCount);
+    }
+
+    function pageMinLimit(){
+        if(productCount <= 1) return true;
+        else return false;
+    }
+
+    function pageMaxLimit(){
+        if(productCount >= 112) return true;
+        else return false;
     }
 
     return(
@@ -51,13 +61,14 @@ export default function Movie(){
                             duration={movie.Runtime}
                             genre={movie.Genre}
                             rating={movie.IMDB_Rating}
+                            overview={movie.Overview}
                 />))}
             </div>
 
             <div className='buttons'>
                 <button className='button' onClick={handleClickFirst}>First Page</button>
-                <button className='button' onClick={handleClickPrev}>Prev Page</button>
-                <button className='button' onClick={handleClickNext}>Next Page</button>
+                {pageMinLimit()?'':<button className='button' onClick={handleClickPrev}>Prev Page</button>}
+                {pageMaxLimit()?'':<button className='button' onClick={handleClickNext}>Next Page</button>}
                 <button className='button' onClick={handleClickLast}>Last Page</button>
             </div>
         </>
