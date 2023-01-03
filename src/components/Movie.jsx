@@ -6,7 +6,7 @@ import MovCon from './MovCon';
 export default function Movie(){
     const [productCount, setProductCount] = useState(1);
     const [movies, setMovies] = useState([]);
-
+    // const [status, setStatus] = useState(0);
     useEffect(() => {
         let url = `http://localhost:3001/movies/?_page=${productCount}&_limit=9`;
         fetch(url)
@@ -18,7 +18,6 @@ export default function Movie(){
         });
       }, [productCount]);
 
-    
 
     function handleClickFirst(event) {
         setProductCount(1);
@@ -53,15 +52,17 @@ export default function Movie(){
     return(
         <>
             <div className='movie-cards'>
-                {movies.map((movie) => 
-                (<MovCon    key={movie.id} 
-                            img={movie.Poster_Link}
-                            title={movie.Series_Title}
-                            year={movie.Released_Year}
-                            duration={movie.Runtime}
-                            genre={movie.Genre}
-                            rating={movie.IMDB_Rating}
-                            overview={movie.Overview}
+                {movies.map((movie) => (
+                <MovCon 
+                    key={movie.id}
+                    movid={movie.id}
+                    img={movie.Poster_Link}
+                    title={movie.Series_Title}
+                    year={movie.Released_Year}
+                    duration={movie.Runtime}
+                    genre={movie.Genre}
+                    rating={movie.IMDB_Rating}
+                    overview={movie.Overview}
                 />))}
             </div>
 

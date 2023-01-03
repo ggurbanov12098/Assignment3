@@ -1,0 +1,19 @@
+.detailed-movie-card{
+    background-color: rgb(89, 89, 89);
+    display: flex;
+
+    border-radius: 30px;
+    /* width: 30%; */
+
+    /* column-gap: 15px; */
+}
+
+.movie-img{
+    width: 40%;
+    border-radius: 30px;
+}
+
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
