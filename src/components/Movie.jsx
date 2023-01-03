@@ -8,7 +8,7 @@ export default function Movie(){
     const [movies, setMovies] = useState([]);
     // const [status, setStatus] = useState(0);
     useEffect(() => {
-        let url = `http://localhost:3001/movies/?_page=${productCount}&_limit=9`;
+        let url = `http://localhost:3000/movies/?_page=${productCount}&_limit=9`;
         fetch(url)
         .then((res) => { return res.json(); })
         .then((data) => {

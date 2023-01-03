@@ -1,0 +1,28 @@
+{
+  "messages": [
+    {
+      "subject": "Subject",
+      "content": "Content",
+      "email": "qabil.qurbanov007@gmail.com",
+      "id": 1
+    },
+    {
+      "subject": "Redirect Test",
+      "content": "Content",
+      "email": "qabil.qurbanov007@gmail.com",
+      "id": 2
+    },
+    {
+      "subject": "Subject",
+      "content": "sad",
+      "email": "qabil.qurbanov007@gmail.com",
+      "id": 3
+    },
+    {
+      "subject": "ASDASD",
+      "content": "ASDASDAS",
+      "email": "qabil.qurbanov007@gmail.com",
+      "id": 4
+    }
+  ]
+}

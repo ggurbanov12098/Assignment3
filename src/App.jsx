@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Movie from "./components/Movie";
 import DetailedMovInfo from "./components/DetailedMovInfo";
+import ContactMe from "./components/ContactMe";
 
 export default function App(){
     return(
@@ -12,9 +13,11 @@ export default function App(){
 
             <Routes>
                 <Route path="/" element = <Home /> />
+                
                 <Route path="/movies" element = <Movie /> />
-                <Route path="/" element = <test /> />
                 <Route path="/movies/:movieID" element = <DetailedMovInfo /> />
+
+                <Route path="/contactme" element = <ContactMe /> />
             </Routes>
         </div>
     );

@@ -7,7 +7,7 @@ export default function DetailedMovInfo(){
     const [ movie, setMovie ] = useState([]);
 
     useEffect(() => {
-        let url = `http://localhost:3001/movies/${movieID}`;
+        let url = `http://localhost:3000/movies/${movieID}`;
         fetch(url)
         .then((res) => { return res.json() })
         .then((data) => {
@@ -16,24 +16,66 @@ export default function DetailedMovInfo(){
       }, [movieID]);
 
     console.log(movieID);
+
+
     return(
         <div className="detailed-movie-card">
-            <img src={movie.Poster_Link} className='movie-img' alt="movie-img" />
-            <p>Title: {movie.Series_Title}</p>
-            <p>Year: {movie.Released_Year}</p>
-            <p>Certificate: {movie.Certificate}</p>
-            <p>Runtime: {movie.Runtime}</p>
-            <p>Genre: {movie.Genre}</p>
-            <p>Rating: {movie.IMDB_Rating}</p>
-            <p>Overview: {movie.Overview}</p>
-            <p>Meta Score: {movie.Meta_score}</p>
-            <p>Director: {movie.Director}</p>
-            <p>Star 1: {movie.Star1}</p>
-            <p>Star 2: {movie.Star2}</p>
-            <p>Star 3: {movie.Star3}</p>
-            <p>Star 4: {movie.Star4}</p>
-            <p>Votes: {movie.No_of_Votes}</p>
-            <p>Gross: {movie.Gross}</p>
+            <div className="img&table">
+                <img src={movie.Poster_Link} className='movie-img' alt="movie-img" />
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Title:</td>
+                            <td>{movie.Series_Title}</td>
+                            <td className='third'>Certificate:</td>
+                            <td>{movie.Certificate}</td>
+                        </tr>
+                        <tr>
+                            <td>Year:</td>
+                            <td>{movie.Released_Year}</td>
+                            <td className='third'>Director:</td>
+                            <td>{movie.Director}</td>
+                        </tr>
+                        <tr>
+                            <td>Runtime:</td>
+                            <td>{movie.Runtime}</td>
+                            <td className='third'>Star 1:</td>
+                            <td>{movie.Star1}</td>
+                        </tr>
+                        <tr>
+                            <td>Genre:</td>
+                            <td>{movie.Genre}</td>
+                            <td className='third'>Star 2:</td>
+                            <td>{movie.Star2}</td>
+                        </tr>
+                        <tr>
+                            <td>Rating:</td>
+                            <td>{movie.IMDB_Rating}</td>
+                            <td className='third'>Star 3:</td>
+                            <td>{movie.Star3}</td>
+                        </tr>
+                        <tr>
+                            <td>Votes:</td>
+                            <td>{movie.No_of_Votes}</td>
+                            <td className='third'>Star 4:</td>
+                            <td>{movie.Star4}</td>
+                        </tr>
+                        <tr>
+                            <td>Meta Score:</td>
+                            <td>{movie.Meta_score}</td>
+                            <td className='third'>Gross:</td>
+                            <td>{movie.Gross}</td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td>Overview:</td>
+                            <td className='third'>{movie.Overview}</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     );
 }

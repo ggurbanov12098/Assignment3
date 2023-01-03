@@ -17,17 +17,22 @@ export default function Home(){
                     <h1>Aslan Ibadullayev</h1>
                     <p className="status">CS Student</p>
                     <p className="email">aibadullayev14284@ada.edu.az</p>
+
                     <div className="messenger-buttons">
+                        <a href='mailto:aibadullayev14284@ada.edu.az' className='email'>
                         <button className="messenger-email-button">
-                        <span className="fa fa-envelope">
-                        </span>
+                        <span className="fa fa-envelope"></span>
                         <span>Email</span>
                         </button>
+                        </a>
+                        <a href='https://www.linkedin.com/in/aslan-ibadullayev-1633461a7/'>
                         <button className="messenger-linkedin-button">
                         <span><i className="fa fa-linkedin-square"></i></span>
                         <span>Linkedin</span> 
                         </button>
+                        </a>
                     </div>
+
                     <div className="bio">
                         <h3>About</h3>
                         <p>I'm 3rd year student at ADA University. I'm fully focused on my goals.
@@ -42,9 +47,9 @@ export default function Home(){
                 </div>
                 <footer>
                     <div className="soc-network-links">
-                        <a href="https://twitter.com/CNormanov" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-twitter"></span></a>
+                        <a href="https://twitter.com/CNormanov" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-telegram"></span></a>
                         <a href="https://www.facebook.com/aslan.ibadullayev.1/" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-facebook"></span></a>
-                        <a href="https://www.instagram.com/leo______456/" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-instagram"></span></a>
+                        <a href="https://www.instagram.com/leonn___456/" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-instagram"></span></a>
                         <a href="https://github.com/AslanIbadullayevDev" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-github"></span></a>
                     </div>
                 </footer>
@@ -59,15 +64,18 @@ export default function Home(){
                     <p className="status">CS Student</p>
                     <p className="email">ggurbanov12098@ada.edu.az</p>
                     <div className="messenger-buttons">
+                        <a href='mailto:ggurbanov12098@ada.edu.az' className='email'>
                         <button className="messenger-email-button">
-                        <span className="fa fa-envelope">
-                        </span>
+                        <span className="fa fa-envelope"></span>
                         <span>Email</span>
                         </button>
+                        </a>
+                        <a href='https://www.linkedin.com/in/gabil-gurbanov-b183321a3/'>
                         <button className="messenger-linkedin-button">
                         <span><i className="fa fa-linkedin-square"></i></span>
                         <span>Linkedin</span> 
                         </button>
+                        </a>
                     </div>
                     <div className="bio">
                         <h3>About</h3>
@@ -83,7 +91,7 @@ export default function Home(){
                 </div>
                 <footer>
                     <div className="soc-network-links">
-                        <a href="https://twitter.com/CNormanov" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-twitter"></span></a>
+                        <a href="https://twitter.com/CNormanov" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-telegram"></span></a>
                         <a href="https://www.facebook.com/aslan.ibadullayev.1/" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-facebook"></span></a>
                         <a href="https://www.instagram.com/leo______456/" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-instagram"></span></a>
                         <a href="https://github.com/AslanIbadullayevDev" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-github"></span></a>
@@ -100,15 +108,18 @@ export default function Home(){
                     <p className="status">CS Student</p>
                     <p className="email">lnovruzova11983@ada.edu.az</p>
                     <div className="messenger-buttons">
+                        <a href='mailto:ggurbanov12098@ada.edu.az' className='email'>
                         <button className="messenger-email-button">
-                        <span className="fa fa-envelope">
-                        </span>
+                        <span className="fa fa-envelope"></span>
                         <span>Email</span>
                         </button>
+                        </a>
+                        <a href='https://www.linkedin.com/in/leylanovruz/?originalSubdomain=az'>
                         <button className="messenger-linkedin-button">
                         <span><i className="fa fa-linkedin-square"></i></span>
                         <span>Linkedin</span> 
                         </button>
+                        </a>
                     </div>
                     <div className="bio">
                         <h3>About</h3>
@@ -124,7 +135,7 @@ export default function Home(){
                 </div>
                 <footer>
                     <div className="soc-network-links">
-                        <a href="https://twitter.com/CNormanov" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-twitter"></span></a>
+                        <a href="https://twitter.com/CNormanov" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-telegram"></span></a>
                         <a href="https://www.facebook.com/aslan.ibadullayev.1/" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-facebook"></span></a>
                         <a href="https://www.instagram.com/leo______456/" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-instagram"></span></a>
                         <a href="https://github.com/AslanIbadullayevDev" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-github"></span></a>
