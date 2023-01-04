@@ -6,6 +6,8 @@ import Movie from "./components/Movie";
 import DetailedMovInfo from "./components/DetailedMovInfo";
 import ContactMe from "./components/ContactMe";
 
+
+
 export default function App(){
     return(
         <div>

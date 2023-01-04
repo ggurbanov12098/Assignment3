@@ -1,5 +1,5 @@
 import './DetailedMovInfo.css';
-import { useParams } from 'react-router-dom';
+import { NavLink, useParams } from 'react-router-dom';
 import React, { useEffect, useState } from "react";
 
 export default function DetailedMovInfo(){
@@ -7,7 +7,7 @@ export default function DetailedMovInfo(){
     const [ movie, setMovie ] = useState([]);
 
     useEffect(() => {
-        let url = `http://localhost:3000/movies/${movieID}`;
+        let url = `http://localhost:3001/movies/${movieID}`;
         fetch(url)
         .then((res) => { return res.json() })
         .then((data) => {
@@ -16,7 +16,8 @@ export default function DetailedMovInfo(){
       }, [movieID]);
 
     console.log(movieID);
-
+    const pageN = Math.ceil(movieID / 9);
+    console.log(pageN);
 
     return(
         <div className="detailed-movie-card">
@@ -76,6 +77,7 @@ export default function DetailedMovInfo(){
                     </tbody>
                 </table>
             </div>
+            <button><NavLink to={`/movies`}>Back</NavLink></button>
         </div>
     );
 }

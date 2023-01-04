@@ -4,10 +4,22 @@ import React from "react";
 export default function Home(){
     return(
     <>
+    <div className='gen-container'>
+    <h1 className='gen-info'>The Internet Movie Database (IMDb) is an online database containing information and statistics about movies, TV shows as well as actors, directors and other film industry professionals.</h1>
+    </div>
+    <div className='projects-container'>
+        <h2 className='project-title'> Projects done so far: </h2>
+    </div>
+    <div className='project-list'>
+        <ul className='ul'>
+            <li className='li'>
+                Digital Card (<a className='aslan' target="_blank" rel='noreferrer' href='https://aslanibadullayevdev.github.io/digitalbusinesscard'>Aslan</a> / <a className='gabil' target="_blank" rel='noreferrer' href='https://ggurbanov12098.github.io/Digital_Card/'>Gabil</a> / <a className='leyla' target="_blank" rel='noreferrer' href='https://leylanovruzz.github.io/'>Leyla</a>)</li>
+            <li className='li'>Weather App (<a className='aslan' target="_blank" rel='noreferrer' href='https://aslanibadullayevdev.github.io/weathertellerapphomepage'>Aslan</a> / <a className='gabil' target="_blank" rel='noreferrer' href='https://ggurbanov12098.github.io/Weather-Teller/'>Gabil</a> / <a className='leyla' target="_blank" rel='noreferrer' href='https://leylanovruzz.github.io/'>Leyla</a>)</li>
+            {/* <li><a>IMDB Movie App</a></li> */}
+        </ul>
+    </div>
 
 
-
-    {/******************  Sandbox for Aslan *******************/}
         <div className="container">
             <div className="AslanCard">
                 <div className="header">
@@ -47,7 +59,7 @@ export default function Home(){
                 </div>
                 <footer>
                     <div className="soc-network-links">
-                        <a href="https://twitter.com/CNormanov" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-telegram"></span></a>
+                        <a href="https://t.me/oniichan_456" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-telegram"></span></a>
                         <a href="https://www.facebook.com/aslan.ibadullayev.1/" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-facebook"></span></a>
                         <a href="https://www.instagram.com/leonn___456/" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-instagram"></span></a>
                         <a href="https://github.com/AslanIbadullayevDev" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-github"></span></a>
@@ -91,10 +103,10 @@ export default function Home(){
                 </div>
                 <footer>
                     <div className="soc-network-links">
-                        <a href="https://twitter.com/CNormanov" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-telegram"></span></a>
-                        <a href="https://www.facebook.com/aslan.ibadullayev.1/" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-facebook"></span></a>
-                        <a href="https://www.instagram.com/leo______456/" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-instagram"></span></a>
-                        <a href="https://github.com/AslanIbadullayevDev" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-github"></span></a>
+                        <a href="https://t.me/ggurbanov" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-telegram"></span></a>
+                        <a href="https://www.facebook.com/qabil.qurbanov/" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-facebook"></span></a>
+                        <a href="https://www.instagram.com/_ggurbanov_/" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-instagram"></span></a>
+                        <a href="https://github.com/ggurbanov12098" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-github"></span></a>
                     </div>
                 </footer>
             </div>
@@ -108,7 +120,7 @@ export default function Home(){
                     <p className="status">CS Student</p>
                     <p className="email">lnovruzova11983@ada.edu.az</p>
                     <div className="messenger-buttons">
-                        <a href='mailto:ggurbanov12098@ada.edu.az' className='email'>
+                        <a href='mailto:lnovruzova11983@ada.edu.az' className='email'>
                         <button className="messenger-email-button">
                         <span className="fa fa-envelope"></span>
                         <span>Email</span>
@@ -135,18 +147,14 @@ export default function Home(){
                 </div>
                 <footer>
                     <div className="soc-network-links">
-                        <a href="https://twitter.com/CNormanov" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-telegram"></span></a>
-                        <a href="https://www.facebook.com/aslan.ibadullayev.1/" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-facebook"></span></a>
-                        <a href="https://www.instagram.com/leo______456/" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-instagram"></span></a>
-                        <a href="https://github.com/AslanIbadullayevDev" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-github"></span></a>
+                        <a href="https://t.me/dojoflix" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-telegram"></span></a>
+                        <a href="https://www.facebook.com/profile.php?id=100077252775693" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-facebook"></span></a>
+                        {/* <a href="" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-instagram"></span></a> */}
+                        <a href="https://github.com/leylanovruzz" target="_blank" rel="noreferrer"><span className="fa fa-brands fa-github"></span></a>
                     </div>
                 </footer>
             </div>
         </div>
-    {/******************  Sandbox for Aslan *******************/}
-    
-    
-    
     </>
     );
 }
