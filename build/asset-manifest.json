@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/IMDB-ReactApp/static/css/main.aef40423.css",
+    "main.js": "/IMDB-ReactApp/static/js/main.d2fc5d8a.js",
+    "static/media/Gabil.jpeg": "/IMDB-ReactApp/static/media/Gabil.dc6c462f489392c2cde0.jpeg",
+    "static/media/ContactMe.jpg": "/IMDB-ReactApp/static/media/ContactMe.13b798d6ec4d62e3e4d2.jpg",
+    "static/media/Leyla.jpeg": "/IMDB-ReactApp/static/media/Leyla.9a6b4bd112de0fa05c62.jpeg",
+    "static/media/Aslan.jpeg": "/IMDB-ReactApp/static/media/Aslan.d2a5598263dca052ab46.jpeg",
+    "index.html": "/IMDB-ReactApp/index.html",
+    "main.aef40423.css.map": "/IMDB-ReactApp/static/css/main.aef40423.css.map",
+    "main.d2fc5d8a.js.map": "/IMDB-ReactApp/static/js/main.d2fc5d8a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aef40423.css",
+    "static/js/main.d2fc5d8a.js"
+  ]
+}
