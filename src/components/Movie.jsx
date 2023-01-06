@@ -52,8 +52,9 @@ export default function Movie(){
     return(
         <>
             <div className='movie-cards'>
+
                 {movies.map((movie) => (
-                <MovCon 
+                <MovCon     
                     key={movie.id}
                     movid={movie.id}
                     img={movie.Poster_Link}

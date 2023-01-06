@@ -10,7 +10,7 @@ import ContactMe from "./components/ContactMe";
 
 export default function App(){
     return(
-        <div>
+        <div> 
             <Navbar />
 
             <Routes>

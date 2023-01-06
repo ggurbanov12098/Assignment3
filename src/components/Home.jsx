@@ -12,9 +12,8 @@ export default function Home(){
     </div>
     <div className='project-list'>
         <ul className='ul'>
-            <li className='li'>
-                Digital Card (<a className='aslan' target="_blank" rel='noreferrer' href='https://aslanibadullayevdev.github.io/digitalbusinesscard'>Aslan</a> / <a className='gabil' target="_blank" rel='noreferrer' href='https://ggurbanov12098.github.io/Digital_Card/'>Gabil</a> / <a className='leyla' target="_blank" rel='noreferrer' href='https://leylanovruzz.github.io/'>Leyla</a>)</li>
-            <li className='li'>Weather App (<a className='aslan' target="_blank" rel='noreferrer' href='https://aslanibadullayevdev.github.io/weathertellerapphomepage'>Aslan</a> / <a className='gabil' target="_blank" rel='noreferrer' href='https://ggurbanov12098.github.io/Weather-Teller/'>Gabil</a> / <a className='leyla' target="_blank" rel='noreferrer' href='https://leylanovruzz.github.io/'>Leyla</a>)</li>
+            <li className='li'>Digital Card (<a className='aslan' target="_blank" rel='noreferrer' href='https://aslanibadullayevdev.github.io/digitalbusinesscard'> Aslan</a> / <a className='gabil' target="_blank" rel='noreferrer' href='https://ggurbanov12098.github.io/Digital_Card/'>Gabil</a> / <a className='leyla' target="_blank" rel='noreferrer' href='https://leylanovruzz.github.io/'>Leyla </a>)</li>
+            <li className='li'>Weather App (<a className='aslan' target="_blank" rel='noreferrer' href='https://aslanibadullayevdev.github.io/weathertellerapphomepage'> Aslan</a> / <a className='gabil' target="_blank" rel='noreferrer' href='https://ggurbanov12098.github.io/Weather-Teller/'>Gabil </a>)</li>
             {/* <li><a>IMDB Movie App</a></li> */}
         </ul>
     </div>
@@ -28,7 +27,7 @@ export default function Home(){
                 <div className="main-content">
                     <h1>Aslan Ibadullayev</h1>
                     <p className="status">CS Student</p>
-                    <p className="email">aibadullayev14284@ada.edu.az</p>
+                    <p style={{color: "white"}} className="email">aibadullayev14284@ada.edu.az</p>
 
                     <div className="messenger-buttons">
                         <a href='mailto:aibadullayev14284@ada.edu.az' className='email'>
@@ -74,7 +73,7 @@ export default function Home(){
                 <div className="main-content">
                     <h1>Gabil Gurbanov</h1>
                     <p className="status">CS Student</p>
-                    <p className="email">ggurbanov12098@ada.edu.az</p>
+                    <p style={{color: "white"}} className="email">ggurbanov12098@ada.edu.az</p>
                     <div className="messenger-buttons">
                         <a href='mailto:ggurbanov12098@ada.edu.az' className='email'>
                         <button className="messenger-email-button">
@@ -117,8 +116,8 @@ export default function Home(){
                 </div>
                 <div className="main-content">
                     <h1>Leyla Novruzova</h1>
-                    <p className="status">CS Student</p>
-                    <p className="email">lnovruzova11983@ada.edu.az</p>
+                    <p className="status">IT Student</p>
+                    <p style={{color: "white"}} className="email">lnovruzova11983@ada.edu.az</p>
                     <div className="messenger-buttons">
                         <a href='mailto:lnovruzova11983@ada.edu.az' className='email'>
                         <button className="messenger-email-button">
