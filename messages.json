@@ -1,3 +1,10 @@
 {
-  "messages": []
+  "messages": [
+    {
+      "subject": "Subject",
+      "content": "Content",
+      "email": "email@email.com",
+      "id": 1
+    }
+  ]
 }
